@@ -1,0 +1,55 @@
+.tag-line {
+    color: lightgrey;
+    font-size: 15px;
+
+}
+
+.favourites-container {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8080801c;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+
+.favourite-card {
+    width: 240px;
+    height: 280px;
+    margin-right: 40px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.card-fotter {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    align-items: center;
+}
+
+.favourite-card span {
+    width: 70%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card-fotter button {
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 5px;
+}
+
+
+
+.favourite-card img {
+    width: 100%;
+}
+
+.favourites-section-1{
+display: flex;
+    justify-content: space-between;
+}
